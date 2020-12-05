@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import SliderWindow from './component/SliderWindow'
-import SliderText from './component/SliderText'
-import AboutImgLeft from './component/AboutImgLeft'
-import About from './component/About'
-import AboutImgRight from './component/AboutImgRight'
+import Header from './component/Header'
 import Overlay from './component/Overlay'
+import Slider from './component/Slider'
+import Stills from './component/Stills'
+
 import './css/sliderWindow.css'
 import './css/header.css'
 import './css/sliderControl.css'
@@ -33,12 +32,10 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <SliderWindow mobileMenuToggle={this.mobileMenuToggle}/>
-        <SliderText />
-        <AboutImgLeft />
-        <About />
-        <AboutImgRight />
+        <Header mobileMenuToggle={this.mobileMenuToggle}/>
         <Overlay />
+        <Slider />
+        <Stills />
       </div>
     )
   }
