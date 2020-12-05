@@ -1,0 +1,19 @@
+.aboutComponent {
+  padding: 60px 24px;
+}
+
+.aboutContainer {
+}
+
+.aboutTitle {
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 5.5px;
+  padding-bottom: 18px;
+}
+
+.aboutText {
+  color: var(--Gray);
+  line-height: 20px;
+  font-size: 1em;
+}

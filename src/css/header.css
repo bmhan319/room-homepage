@@ -1,0 +1,54 @@
+.headerComponent {
+  position: relative;
+  text-align: center;
+}
+
+/* Mobile Code */
+.mobileHeaderContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hamburgerContainer {
+  position: absolute;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 14px;
+  
+}
+
+.burger {
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.burgerTop {
+}
+
+.burgerMid {
+}
+
+.burgerBot {
+}
+
+.mobileLogoConatiner {
+  margin: 0 auto;
+}
+
+.mobileLogo {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+
+
+
+/* Dekstop Code */
+.desktopHeaderContainer {
+  display: none;
+}

@@ -1,0 +1,36 @@
+.sliderTextComponent {
+padding: 72px 24px;
+}
+
+.sliderTextContainer {
+}
+
+.introTitle {
+  font-weight: 600;
+  font-size: 2.25em;
+  padding-bottom: 18px;
+}
+
+.introText {
+  color: var(--Gray);
+  line-height: 20px;
+  font-size: 1em;
+  padding-bottom: 50px;
+}
+
+.shopLink {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+}
+
+.arrowLink {
+  padding-left: 50px;
+}
