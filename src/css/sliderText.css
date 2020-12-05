@@ -26,6 +26,11 @@ padding: 72px 24px;
   font-weight: 500;
 }
 
+.shopLink:hover {
+  color: var(--Gray);
+  cursor: pointer;
+}
+
 .arrowContainer {
   display: flex;
   align-items: center;
@@ -33,4 +38,8 @@ padding: 72px 24px;
 
 .arrowLink {
   padding-left: 50px;
+}
+
+.arrowLink:hover {
+  fill: var(--Gray);
 }
