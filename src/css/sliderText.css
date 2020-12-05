@@ -38,7 +38,7 @@
   color: #000;
   text-decoration: none;
   display: flex;
-  letter-spacing: 8px;
+  letter-spacing: 12px;
   font-weight: 500;
 }
 
@@ -55,5 +55,5 @@
 .arrowContainer {
   display: flex;
   align-items: center;
-  margin-left: 70px;
+  margin-left: 35px;
 }
