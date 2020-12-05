@@ -22,7 +22,7 @@ padding: 72px 24px;
   color: #000;
   text-decoration: none;
   display: flex;
-  letter-spacing: 3px;
+  letter-spacing: 8px;
   font-weight: 500;
 }
 
@@ -31,15 +31,13 @@ padding: 72px 24px;
   cursor: pointer;
 }
 
+.shopLink:hover  .arrowPath {
+  fill: var(--Gray);
+  cursor: pointer;
+}
+
 .arrowContainer {
   display: flex;
   align-items: center;
-}
-
-.arrowLink {
-  padding-left: 50px;
-}
-
-.arrowLink:hover {
-  fill: var(--Gray);
+  margin-left: 70px;
 }
