@@ -1,6 +1,9 @@
 .headerComponent {
   position: relative;
   text-align: center;
+  display: flex;
+  align-items: center;
+  height: 110px;
 }
 
 /* Mobile Code */
@@ -8,6 +11,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .hamburgerContainer {
@@ -17,22 +21,13 @@
   flex-direction: column;
   justify-content: space-between;
   height: 14px;
-  
+  cursor: pointer;
 }
 
 .burger {
   width: 20px;
   height: 2px;
   background-color: #fff;
-}
-
-.burgerTop {
-}
-
-.burgerMid {
-}
-
-.burgerBot {
 }
 
 .mobileLogoConatiner {
@@ -45,8 +40,42 @@
   font-size: 1.75em;
 }
 
+/* Mobile Open Menu */
+.mobileMenu {
+  height: 110px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  transition: top .2s ease-in ;
+  top: -110px;
+  z-index: 20;
+}
 
+.closeContainer {
+  padding-right: 60px;
+  cursor: pointer;
+}
 
+.mobileMenuConatiner {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mobileMenuItem {
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+}
+
+.mobileMenuItem:hover {
+  border-bottom: 2px solid #000;
+}
 
 /* Dekstop Code */
 .desktopHeaderContainer {

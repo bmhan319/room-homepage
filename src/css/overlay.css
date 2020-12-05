@@ -1,0 +1,10 @@
+.overlayComponent {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: -100vh;
+  opacity: 1;
+  transition: all .2s ease-in;
+  z-index: 10;
+}
