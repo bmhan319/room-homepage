@@ -23,14 +23,6 @@
   cursor: pointer;
 }
 
-.sliderLeftSVG {
-  
-}
-
-.sliderRightSVG {
-
-}
-
 @media screen and (min-width: 1440px) {
   .sliderControlComponent {
     top: auto;
@@ -39,5 +31,10 @@
     left: 58.333%;
     height: 80px;
     width: 160px;
+  }
+
+  .sliderLeftSVG,
+  .sliderRightSVG {
+    transform: scale(1.25)
   }
 }
