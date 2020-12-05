@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SliderControl from './SliderControl'
+
 
 export default function SliderWindow(props) {
   return (
@@ -11,7 +11,7 @@ export default function SliderWindow(props) {
         <div className="slides slide3"></div>
         <div className="slides slide1"></div>
       </div>
-      <SliderControl slider={props.slider} />
+      
     </div>
   )
 }

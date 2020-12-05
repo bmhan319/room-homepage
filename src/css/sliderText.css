@@ -1,6 +1,7 @@
 .sliderTextComponent {
   position: relative;
   padding-bottom: 0px;
+  overflow-x: hidden;
 }
 
 .sliderTextContainer {
@@ -56,4 +57,15 @@
   display: flex;
   align-items: center;
   margin-left: 35px;
+}
+
+@media screen and (min-width: 1440px) { 
+  .sliderTextComponent {
+    width: 41.667%;
+    height: 66.75%;
+  }
+  
+  .sliderTextContainer {
+    height: auto;
+  }
 }

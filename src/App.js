@@ -6,21 +6,16 @@ import Stills from './component/Stills'
 
 import './css/sliderWindow.css'
 import './css/header.css'
+import './css/overlay.css'
 import './css/slider.css'
 import './css/sliderControl.css'
 import './css/sliderText.css'
-import './css/aboutImgLeft.css'
-import './css/aboutImgRight.css'
-import './css/about.css'
-import './css/overlay.css'
+import './css/stills.css'
+
 
 let count = 0
 
 export default class App extends Component {
-  state = {
-    'count': 0
-  }
-
   mobileMenuToggle = (pos) => {
     const menu = document.querySelector('.mobileMenu')
     const overlay = document.querySelector('.overlayComponent')
@@ -37,9 +32,9 @@ export default class App extends Component {
   }
 
   slider = (num) => {
-    count = count + num
     const slides = document.querySelector('.sliderWindowContainer')
     const text = document.querySelector('.sliderTextContainer')
+    count = count + num
     if (count === -300) {
       count = 0
     } else if (count === 100) {

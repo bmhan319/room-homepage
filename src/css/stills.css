@@ -1,0 +1,77 @@
+.stillsContainer {
+  display: block;
+  background-color: var(--White);
+}
+
+.aboutImgLeftContainer {
+  width: 100%;
+  height: 64vw;
+}
+
+.aboutContainer {
+  padding: 60px 24px;
+}
+
+.aboutTitle {
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 5.5px;
+  padding-bottom: 18px;
+}
+
+.aboutText {
+  color: var(--Gray);
+  line-height: 20px;
+  font-size: 1em;
+}
+
+.aboutImgRightContainer {
+  width: 100%;
+  height: 64vw;
+}
+
+.aboutImg {
+  width: 100%;
+  display: block;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+  .stillsComponent {
+    height: 33.25%;
+    width: 100%;
+  }
+
+  .stillsContainer {
+    display: flex;
+  }
+
+  .aboutImgLeftContainer {
+    width: 29.16%;
+    height: 100%;
+  }
+
+  .aboutContainer {
+    padding: 60px 24px;
+    width: 40.278%;
+  }
+  
+  .aboutTitle {
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 5.5px;
+    padding-bottom: 18px;
+  }
+  
+  .aboutText {
+    color: var(--Gray);
+    line-height: 20px;
+    font-size: 1em;
+  }
+  
+  .aboutImgRightContainer {
+    width: 30.555%;
+    height: 100%;
+  }
+}
