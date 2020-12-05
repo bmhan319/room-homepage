@@ -64,8 +64,22 @@
     width: 41.667%;
     height: 66.75%;
   }
-  
-  .sliderTextContainer {
-    height: auto;
+
+  .sliderText {
+    padding: 120px 102px;
+  }
+
+  .introTitle {
+    font-size: 3em;
+    padding-bottom: 26px;
+    line-height: 44px;
+  }
+
+  .introText {
+    padding-bottom: 0;
+  }
+
+  .shopLinkContainer {
+    bottom: 76px;
   }
 }
