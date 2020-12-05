@@ -13,6 +13,8 @@ import './css/aboutImgRight.css'
 import './css/about.css'
 import './css/overlay.css'
 
+let count = 0
+
 export default class App extends Component {
   mobileMenuToggle = (pos) => {
     const menu = document.querySelector('.mobileMenu')
@@ -29,12 +31,25 @@ export default class App extends Component {
     }
   }
 
+  slider = (num) => {
+    count = count + num
+    const slides = document.querySelector('.sliderWindowContainer')
+    const text = document.querySelector('.sliderTextContainer')
+    if (count === -300) {
+      count = 0
+    } else if (count === 100) {
+      count = -200
+    }
+    slides.style.left = `${count}%`
+    text.style.left = `${count}%`
+  }
+
   render() {
     return (
       <div className="App">
-        <Header mobileMenuToggle={this.mobileMenuToggle}/>
+        <Header mobileMenuToggle={this.mobileMenuToggle} />
         <Overlay />
-        <Slider />
+        <Slider slider={this.slider} />
         <Stills />
       </div>
     )
