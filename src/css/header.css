@@ -79,7 +79,51 @@
   border-bottom: 2px solid #000;
 }
 
-/* Dekstop Code */
+/* Desktop Code */
 .desktopHeaderContainer {
   display: none;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .headerComponent {
+    text-align: initial;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+  }
+
+  .mobileHeaderContainer {
+    display: none;
+  }
+
+  .desktopHeaderContainer {
+    display: flex;
+    padding: 64px;
+  }
+
+  .desktopLogoConatiner {
+    display: flex;
+    align-items: center;
+    margin-right: 56px;
+  }
+
+  .desktopMenuContainer {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .menuItem {
+    color: var(--White);
+    margin-right: 32px;
+    border-bottom: 1px solid transparent;
+    font-size: 1.1em;
+  }
+
+  .menuItem:hover {
+    border-bottom: 1px solid var(--White);
+    cursor: pointer;
+  }
 }

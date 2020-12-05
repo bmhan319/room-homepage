@@ -6,6 +6,7 @@ import Stills from './component/Stills'
 
 import './css/sliderWindow.css'
 import './css/header.css'
+import './css/slider.css'
 import './css/sliderControl.css'
 import './css/sliderText.css'
 import './css/aboutImgLeft.css'
@@ -16,6 +17,10 @@ import './css/overlay.css'
 let count = 0
 
 export default class App extends Component {
+  state = {
+    'count': 0
+  }
+
   mobileMenuToggle = (pos) => {
     const menu = document.querySelector('.mobileMenu')
     const overlay = document.querySelector('.overlayComponent')
