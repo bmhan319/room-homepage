@@ -85,7 +85,7 @@
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 530px) {
   .headerComponent {
     text-align: initial;
     display: block;
@@ -120,6 +120,7 @@
     margin-right: 32px;
     border-bottom: 1px solid transparent;
     font-size: 1.1em;
+    font-weight: 500;
   }
 
   .menuItem:hover {

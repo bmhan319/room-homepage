@@ -59,14 +59,14 @@
   margin-left: 35px;
 }
 
-@media screen and (min-width: 1440px) { 
+@media screen and (min-width: 1100px) { 
   .sliderTextComponent {
     width: 41.667%;
     height: 66.75%;
   }
 
   .sliderText {
-    padding: 120px 102px;
+    padding: 60px;
   }
 
   .introTitle {
@@ -77,6 +77,26 @@
 
   .introText {
     padding-bottom: 0;
+  }
+
+  .shopLinkContainer {
+    bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1240px) { 
+  .sliderText {
+    padding: 60px 102px;
+  }
+
+  .shopLinkContainer {
+    bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) { 
+  .sliderText {
+    padding: 120px 102px;
   }
 
   .shopLinkContainer {
