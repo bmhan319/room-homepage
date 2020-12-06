@@ -36,7 +36,7 @@
 }
 
 .shopLink {
-  color: #000;
+  color: var(--Black);
   text-decoration: none;
   display: flex;
   letter-spacing: 12px;

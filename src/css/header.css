@@ -29,7 +29,7 @@
 .burger {
   width: 20px;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--White);
 }
 
 .mobileLogoConatiner {
@@ -37,7 +37,7 @@
 }
 
 .mobileLogo {
-  color: #fff;
+  color: var(--White);
   font-weight: 500;
   font-size: 1.75em;
 }
@@ -46,7 +46,7 @@
 .mobileMenu {
   height: 110px;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--White);
   position: fixed;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@
 }
 
 .closeContainer {
-  padding-right: 60px;
+  margin-right: 60px;
   cursor: pointer;
 }
 
@@ -80,7 +80,7 @@
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: var(--Black);
   left: 0;
   transform: scaleX(0);
   transform-origin: center;
@@ -107,7 +107,8 @@
     z-index: 10;
   }
 
-  .mobileHeaderContainer {
+  .mobileHeaderContainer,
+  .mobileMenuItem {
     display: none;
   }
 
@@ -138,6 +139,6 @@
   }
 
   .menuHover::after {
-    background-color: #fff;
+    background-color: var(--White);
   }
 }
