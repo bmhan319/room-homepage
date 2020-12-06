@@ -4,7 +4,7 @@ export default function Header(props) {
   return (
     <div className="headerComponent">
       <div className="mobileHeaderContainer">
-        <div tabindex="0" className="hamburgerContainer" onClick={ ()=>{props.mobileMenuToggle('open')} } >
+        <div tabindex="0" className="hamburgerContainer" onClick={ ()=>{props.mobileMenuToggle('open')} } onKeyPress={ ()=>{props.mobileMenuToggle('open')} }>
           <div className="burger burgerTop"></div>
           <div className="burger burgerMid"></div>
           <div className="burger burgerBot"></div>
@@ -20,7 +20,7 @@ export default function Header(props) {
 
       
       <div className="mobileMenu">
-        <div tabindex="0"   className="closeContainer" onClick={ ()=>{props.mobileMenuToggle('close')} }>
+        <div tabindex="0"   className="closeContainer" onClick={ ()=>{props.mobileMenuToggle('close')} } onKeyPress={ ()=>{props.mobileMenuToggle('close')} }>
           <svg className="closeIcon" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
             <path className="closePath" d="M14.364.222l1.414 1.414L9.414 8l6.364 6.364-1.414 1.414L8 9.414l-6.364 6.364-1.414-1.414L6.586 8 .222 1.636 1.636.222 8 6.586 14.364.222z" fill="#000" fillRule="evenodd" opacity=".201"/>
           </svg>
