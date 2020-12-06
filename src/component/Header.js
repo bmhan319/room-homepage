@@ -26,10 +26,10 @@ export default function Header(props) {
           </svg>
         </div>
         <ul className="mobileMenuConatiner">
-          <li className="mobileMenuItem">home</li>
-          <li className="mobileMenuItem">shop</li>
-          <li className="mobileMenuItem">about</li>
-          <li className="mobileMenuItem">contact</li>
+          <li className="menuHover mobileMenuItem">home</li>
+          <li className="menuHover mobileMenuItem">shop</li>
+          <li className="menuHover mobileMenuItem">about</li>
+          <li className="menuHover mobileMenuItem">contact</li>
         </ul>
       </div>
       
@@ -42,10 +42,10 @@ export default function Header(props) {
           </h2>
         </div>
         <ul className="desktopMenuContainer">
-          <li className="menuItem menuHome">home</li>
-          <li className="menuItem menuShop">shop</li>
-          <li className="menuItem menuAbout">about</li>
-          <li className="menuItem menuContact">contact</li>
+          <li className="menuHover menuItem menuHome">home</li>
+          <li className="menuHover menuItem menuShop">shop</li>
+          <li className="menuHover menuItem menuAbout">about</li>
+          <li className="menuHover menuItem menuContact">contact</li>
         </ul>
       </div>
     </div>

@@ -73,16 +73,4 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-
-  .slide1 {
-    background-image: url('../img/desktop-image-hero-1.jpg');
-  }
-  
-  .slide2 {
-    background-image: url('../img/desktop-image-hero-2.jpg');
-  }
-  
-  .slide3 {
-    background-image: url('../img/desktop-image-hero-3.jpg');
-  }
 }
