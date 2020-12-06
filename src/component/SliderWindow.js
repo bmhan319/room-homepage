@@ -9,7 +9,6 @@ export default function SliderWindow(props) {
         <div className="slides slide1"></div>
         <div className="slides slide2"></div>
         <div className="slides slide3"></div>
-        <div className="slides slide1"></div>
       </div>
       
     </div>

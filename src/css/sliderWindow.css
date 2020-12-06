@@ -4,7 +4,7 @@
 }
 
 .sliderWindowContainer {
-  width: 400%;
+  width: 300%;
   display: flex;
   position: relative;
   left: 0%;
@@ -59,11 +59,7 @@
   }
 
   .sliderWindowContainer {
-    width: 400%;
     height: 100%;
-    display: flex;
-    position: relative;
-    left: 0%;
   }
 
   .slides {

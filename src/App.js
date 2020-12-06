@@ -12,10 +12,11 @@ import './css/sliderControl.css'
 import './css/sliderText.css'
 import './css/stills.css'
 
-
+//Global Variable for Count
 let count = 0
 
 export default class App extends Component {
+  //To Open/Close Mobile Menu
   mobileMenuToggle = (pos) => {
     const menu = document.querySelector('.mobileMenu')
     const overlay = document.querySelector('.overlayComponent')
@@ -23,14 +24,15 @@ export default class App extends Component {
     if (pos === 'open') {
       menu.style.top = '0px'
       overlay.style.opacity = '.7'
-      overlay.style.top = "110px"
+      overlay.style.bottom = "calc(-110px + 0vh)"
     } else {
       menu.style.top = '-110px'
       overlay.style.opacity = '0'
-      overlay.style.top = "-100vh"
+      overlay.style.bottom = "-100vh"
     }
   }
 
+  //Controls the slideshow buttons
   slider = (num) => {
     const slides = document.querySelector('.sliderWindowContainer')
     const text = document.querySelector('.sliderTextContainer')
