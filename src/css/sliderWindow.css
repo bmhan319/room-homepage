@@ -45,6 +45,7 @@
   
   .slide3 {
     background-image: url('../img/desktop-image-hero-3.jpg');
+    background-position: 50% 0 ;
   }
 }
 
